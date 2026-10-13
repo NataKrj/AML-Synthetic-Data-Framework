@@ -1,9 +1,12 @@
-# Automated Risk-Scoring System for Financial Institutions
+# AML Synthetic Data Framework
 
-The practical part of the automated transaction risk assessment system was developed in the master’s thesis. Includes scenario-based synthetic data creation, data-quality checks, class-imbalance handling, ML model selection, training/retraining.
+A scenario-based framework for synthetic transaction data generation and model evaluation in anti-money laundering transaction monitoring.
 
-This repository contains the source code and experimental artefacts for the master's thesis **"Automated Risk-Scoring System for Financial Institutions"**.  
-The system implements an end-to-end workflow for suspicious / high-risk transaction detection, starting from scenario-driven synthetic data creation and finishing with model explainability.
+This repository contains the source code and experimental artefacts developed as part of the master's thesis **"Automated Risk-Scoring System for Financial Institutions"** and the related publication **"Synthetic Data for Anti-Money Laundering Transaction Monitoring and Model Evaluation"**, presented at RelStat 2026.
+
+The framework covers scenario-based synthetic transaction generation, data-quality checks, class-imbalance handling, machine-learning model selection, training and retraining, and binary and scenario-level model evaluation.
+
+Its purpose is to provide a controlled environment for AML model testing and comparison without using sensitive customer transaction data.
 
 ## 1. Overview
 
