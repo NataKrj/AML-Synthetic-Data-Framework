@@ -10,7 +10,11 @@ Its purpose is to provide a controlled environment for AML model testing and com
 
 ## 1. Overview
 
-The pipeline follows these main stages (see thesis diagram):
+The diagram below summarises the main components of the AML Synthetic Data Framework, from synthetic data configuration and generation to model training, model updates, outputs, and artefact storage.
+
+![AML Synthetic Data Framework overview](artefacts/framework_overview.jpg)
+
+[Open the framework diagram in full size](artefacts/framework_overview.jpg)
 
 1. Choosing a data synthesis method  
 2. Building a scenario catalogue (FI guidelines, EU directives)  
@@ -35,7 +39,7 @@ This repository provides code, sample configs and notebooks for each stage.
                             # - binary with OOF + Platt scaling, incl. full retraining (small vs large),
                             # - multiclass baseline runs (Syn100 vs Syn500)
 /meeting minutes/           # meeting and correspondence summary
-/artefacts/                 # supporting materials (slides, plan/Gantt snapshots, conference materials, Zotero library)
+/artefacts/                 # framework diagrams, slides, conference materials, plan/Gantt snapshots, Zotero library
 ```
 ### Synthetic datasets
 - **Syn100:** 10,000 normal and 100 suspicious transactions.
